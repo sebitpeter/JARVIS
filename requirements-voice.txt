@@ -1,0 +1,4 @@
+# Optional microphone input. Speech recognition uses the online Google Web
+# Speech API through SpeechRecognition; see README.md for the privacy note.
+SpeechRecognition>=3.14
+sounddevice>=0.5

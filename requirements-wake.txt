@@ -1,0 +1,7 @@
+# Install openWakeWord without its optional Linux TFLite dependency because
+# JARVIS uses its ONNX backend. Install this file after requirements-voice.txt.
+onnxruntime>=1.10.0,<2
+tqdm>=4.0,<5
+scipy>=1.3,<2
+scikit-learn>=1,<2
+requests>=2,<3
