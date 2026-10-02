@@ -18,6 +18,28 @@ A small, local desktop chat app with Gemini-powered replies. It includes optiona
 - Internet access and your own Gemini API key for AI replies
 - A microphone and operating-system microphone permission for dictation
 
+## Get the project
+
+Clone the repository and open the project directory:
+
+```bash
+git clone https://github.com/sebitpeter/JARVIS.git
+cd JARVIS/jarvis_desktop
+```
+
+The main application starts from `main.py`. Runtime configuration belongs in `.env`; the example file documents the available settings without containing a real API key.
+
+## Project layout
+
+```text
+main.py                 Application entry point
+app/config.py           Environment and application settings
+app/gemini.py           Gemini API client
+app/voice.py            Optional recording and speech helpers
+app/ui/                 Window and background worker code
+tests/                  Automated tests
+```
+
 ## First run
 
 ### Windows
