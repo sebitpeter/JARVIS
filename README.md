@@ -10,7 +10,6 @@ A small, local desktop chat app with Gemini-powered replies. It includes optiona
 - Optional local "Hey JARVIS" wake-word detection (install the wake-word requirements)
 - Optional spoken replies using `pyttsx3`
 - Unit tests for configuration and Gemini request handling
-- No API key or `.env` file is included
 
 ## Requirements
 
